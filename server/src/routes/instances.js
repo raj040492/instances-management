@@ -2,7 +2,7 @@ const { isLoggedIn } = require("../middleware/auth");
 const { getInstances, updateInstance } = require("../lib/instances");
 
 const instances = (app) => {
-  app.get("/api/instances", isLoggedIn, (_req, res) => {
+  app.get("/api/instances", (_req, res) => {
     res.json({ success: true, instances: getInstances() });
   });
 

@@ -1,0 +1,162 @@
+body {
+  background-color: #e9f0f0;
+  color: white;
+}
+.header__background {
+  background-color: #005a3c;
+}
+.infoPanel__background,
+.instances__background {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+}
+.float__left {
+  float: left;
+}
+.float__right {
+  float: right;
+}
+.button__primary {
+  background-color: #005a3c !important;
+  color: white !important;
+}
+.button__secondary {
+  background-color: white !important;
+  color: #005a3c !important;
+  font-weight: 100 !important;
+}
+.infoPanel {
+  margin: 3% 0;
+  padding-top: 2%;
+  border: 1.5px solid #d9e1e1;
+}
+.instancesPanel {
+  margin: 1% 0;
+  padding: 2% 0;
+  border: 1.5px solid #d9e1e1;
+}
+.infoPanel .ui.toggle.checkbox input:focus:checked ~ label:before,
+.infoPanel .ui.toggle.checkbox input ~ label:before {
+  background-color: #b8d5d1 !important;
+}
+.ui.checkbox input:indeterminate ~ label:after,
+.ui.toggle.checkbox input:checked ~ label:after {
+  background-color: #005a3c;
+}
+.ui.table thead th {
+  background-color: #a6a9b2 !important;
+}
+.textDecor__underline {
+  text-decoration: underline !important;
+}
+.instanceStartStop {
+  background-color: transparent !important;
+}
+.startInstance {
+  color: #4b8975 !important;
+}
+.stopInstance {
+  color: #ea8b8b !important;
+}
+.headerPanel {
+  min-height: 60px;
+}
+.signUpCard,
+.signInCard {
+  width: 100% !important;
+  border-radius: 15px !important;
+  box-shadow: none !important;
+}
+.width_100 {
+  width: 100%;
+}
+.cardContent {
+  padding: 20px 40px !important;
+}
+.oddRowBackground {
+  background-color: #f2f2f2;
+}
+.evenRowBackground {
+  background-color: #e9f0f0;
+}
+.signUpSubmit,
+.createAccountBtn {
+  margin-top: 10px !important;
+}
+.loginHeader {
+  font-size: 25px !important;
+}
+.loginLabel {
+  font-size: 11px !important;
+}
+.runningInstances__container,
+.stoppedInstances__container {
+  color: #736b6b !important;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+}
+tr.instance__row {
+  border-bottom: 2px solid white;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+table tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+.textAlign__right {
+  text-align: right;
+}
+table tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.headerRow {
+  height: 40px;
+}
+.instancesTable {
+  width: 92%;
+  margin-left: 4%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+.instancesPanel tr th {
+  background-color: #b8d5d1 !important;
+  color: #736b6b !important;
+}
+.instancesHeader {
+  color: #807c7c !important;
+  text-align: left;
+  margin-left: 4%;
+}
+@media only screen and (min-width: 768px) {
+  .currencyToggle__container {
+    position: relative;
+    top: -35px;
+  }
+  .inrLabel {
+    position: relative;
+    top: -5px;
+    right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .usdLabel {
+    position: relative;
+    top: -5px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .dashboard,
+  .logoutBtn {
+    position: relative;
+    top: 10px;
+  }
+}
